@@ -14,7 +14,7 @@
  * Description: a first attempt of a frequency analysis tool
  * It does not detect bigrams nor trigrams that helps the cryptanalysis.
  * Therefore, this tool should be efficient only if the input text is long enough
- * nd if the letter distribution is similar to the input language reference.
+ * and if the letter distribution is similar to the input language reference.
  */
 
 /* Libraries */
