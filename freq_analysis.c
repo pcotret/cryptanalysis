@@ -33,6 +33,7 @@ struct tuple{
     double freq;
     char letter;
 };
+typedef struct tuple Tuple;
 
 /* Main program */
 int main(int argc, char *argv[]){
@@ -43,7 +44,7 @@ int main(int argc, char *argv[]){
     }
 
     // Variables
-    struct tuple sorted_down[ALPHA_SIZE];
+    Tuple sorted_down[ALPHA_SIZE];
     double freq_out[ALPHA_SIZE],tempf;
     char templ;
     int i,j,hits,index;
