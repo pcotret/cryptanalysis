@@ -10,3 +10,5 @@ This repository aims to be a directory of basic stuff used in cryptanalysis.
   * Accorded to a friend, Markov chains seems to be a good solution. Some references:
     * [Diaconis, The Markov Chain Monte Carlo Revolution.](http://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf)
     * [Chen et al., Decrypting Classic Cipher Text Using Markov Chains Monte Carlo](http://probability.ca/jeff/ftpdir/decipherart.pdf)
+## freq_anaysis_pointer.c
+EXACTLY the same goal: pointers are used instead of arrays, that's all.
